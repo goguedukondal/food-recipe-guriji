@@ -10,7 +10,7 @@ function Search() {
    
     try {
       const response = await fetch(
-        `https://api.spoonacular.com/recipes/complexSearch?query=${searchRecipe}&number=30&apiKey=4a9453ab05434d118b8efb95f685b7b1`
+        `https://api.spoonacular.com/recipes/complexSearch?query=${searchRecipe}&number=30&apiKey=0f8b4806bc274c51bc69c2a175dc6d7d`
       );
 
       if (response.ok) {
