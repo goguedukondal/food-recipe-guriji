@@ -8,7 +8,7 @@ function Detail() {
 
   useEffect(() => {
     // Define the API URL with your API key
-    const apiUrl = `https://api.spoonacular.com/recipes/${id}/information?includeNutrition=false&instructionsRequired=false&apiKey=4a9453ab05434d118b8efb95f685b7b1`;
+    const apiUrl = `https://api.spoonacular.com/recipes/${id}/information?includeNutrition=false&instructionsRequired=false&apiKey=0f8b4806bc274c51bc69c2a175dc6d7d`;
 
     fetch(apiUrl)
       .then((response) => {
