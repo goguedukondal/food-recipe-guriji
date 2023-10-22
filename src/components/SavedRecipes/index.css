@@ -1,0 +1,16 @@
+.card{
+    
+    /* border: 2px solid red; */
+    padding: 24px;
+    box-shadow: 0 0 10px  black;
+    border-radius: 12px;
+  
+    }
+    img{
+        width: 280px;
+        height: 230px;
+    }
+    .delbtn{
+        color: white;
+        background-color: red;
+    }
